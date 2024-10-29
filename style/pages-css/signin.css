@@ -28,8 +28,6 @@ body{
    }
 .login1{
     
-    
-    
     height: auto;
     display: flex;
     justify-content: center;
@@ -142,10 +140,10 @@ body{
     font-weight: 400;
     color: var(--white);
     line-height: 40px;
-    letter
+    
 }
 .company{
-    margin-right: 90px;
+    margin-right:90 px;
 }
 .product{
     margin-right: 70px;
