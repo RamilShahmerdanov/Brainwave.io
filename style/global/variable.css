@@ -1,7 +1,10 @@
-:root{
- 
+<<<<<<< HEAD
+=======
+:root {
+    --Roboto: "Roboto", serif;
+    --Rubik: "Rubik", serif;
+    /* Signup background color */
+    --light-grayish-blue: #F4F7FA;
+>>>>>>> 5b81f89b59e23183e2ee5eadc17f1f0e5ab772ee
 
-
-
-    
 }
