@@ -1,8 +1,8 @@
+/* Container Section Styling */
 .container-1 {
     height: 761px;
     background-image: url("/assets/image/home/wave.svg");
     z-index: -1;
-
 }
 
 .container-2 {
@@ -12,6 +12,7 @@
     background: #68D5851A;
 }
 
+/* Header Section Styling */
 .header-title {
     font-family: var(--Rubik);
     font-weight: 700;
@@ -39,19 +40,18 @@
     font-size: 15px;
     font-weight: 700;
     line-height: 26px;
-    letter-spacing: -0.01em
+    letter-spacing: -0.01em;
 }
 
 .active {
     color: #FB6D45 !important;
-
 }
 
+/* Dream Job Section Styling */
 .dream-job {
     display: flex;
     justify-content: center;
     margin-top: 56px;
-
 }
 
 .dream-job-content {
@@ -72,7 +72,6 @@
     line-height: 65px;
     letter-spacing: -2px;
     text-align: left;
-
 }
 
 .dream-job-text {
@@ -82,9 +81,9 @@
     line-height: 32px;
     letter-spacing: -0.20000000298023224px;
     text-align: left;
-
 }
 
+/* Big Companies Section Styling */
 .container-3 {
     padding-top: 114px;
     display: flex;
@@ -107,7 +106,6 @@
     line-height: 48px;
     letter-spacing: -1.2000000476837158px;
     text-align: center;
-
 }
 
 .big-companies-text {
@@ -119,21 +117,20 @@
     line-height: 32px;
     letter-spacing: -0.20000000298023224px;
     text-align: center;
-
 }
 
+/* Media Queries for Responsive Design */
 @media (max-width: 1199px) {
 
-    /* Styles for extra-small screens */
+    /* Adjust navbar brand padding for smaller screens */
     .navbar-brand {
         padding-left: 0px;
     }
-
 }
 
 @media (max-width: 991px) {
 
-    /* Styles for extra-small screens */
+    /* Adjust head margin, dream job wrapping for extra-small screens */
     .head {
         margin-left: 0px;
     }
@@ -142,5 +139,4 @@
         flex-wrap: wrap;
         height: 100%;
     }
-
 }
