@@ -1,0 +1,146 @@
+.container-1 {
+    height: 761px;
+    background-image: url("/assets/image/home/wave.svg");
+    z-index: -1;
+
+}
+
+.container-2 {
+    height: 761px;
+    width: 100%;
+    z-index: 1;
+    background: #68D5851A;
+}
+
+.header-title {
+    font-family: var(--Rubik);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.44px;
+    letter-spacing: -0.031em;
+}
+
+.head {
+    margin-left: 200px;
+}
+
+.navbar-brand {
+    padding-left: 50px;
+    font-family: var(--Rubik);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.44px;
+    letter-spacing: -0.031em;
+}
+
+.nav-link {
+    font-family: var(--Roboto);
+    color: var(--mainblack);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.01em
+}
+
+.active {
+    color: #FB6D45 !important;
+
+}
+
+.dream-job {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+
+}
+
+.dream-job-content {
+    width: 518px;
+    height: 402px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding-right: 140px;
+    gap: 21px;
+}
+
+.dream-job-title {
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: -2px;
+    text-align: left;
+
+}
+
+.dream-job-text {
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+
+}
+
+.container-3 {
+    padding-top: 114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.big-companies {
+    width: 686px;
+}
+
+.big-companies-title {
+    display: block;
+    text-align: center;
+    font-family: var(--Roboto);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: center;
+
+}
+
+.big-companies-text {
+    margin-top: 30px;
+    text-align: center;
+    font-family: var(--Roboto);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+
+}
+
+@media (max-width: 1199px) {
+
+    /* Styles for extra-small screens */
+    .navbar-brand {
+        padding-left: 0px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    /* Styles for extra-small screens */
+    .head {
+        margin-left: 0px;
+    }
+
+    .dream-job {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+}

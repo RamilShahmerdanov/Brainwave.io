@@ -10,13 +10,109 @@ body{
     background-color: rgb(225, 43, 43);
 }
 .hero{
+    width: 1110px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 109px;
+}
+.hero h1{
+    font-size: 60px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    color:var(--mainblack) ;
+
+}
+.hero p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--mainblack);
+    margin-top: 44px;
+    margin-bottom: 58px;
+    text-align: center;
+}
+.content1{
+    justify-content: center;
+    display: flex;
+    margin-top: 141px;
+    gap: 155px;
+}
+.conttext1{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    color: var(--mainblack);
+}
+.conttext2{
+    width: 469px;
+    height: 294px;
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--mainblack);
+    line-height: 32px;
+    padding-top: 45px;
+}
+.content2{
+    display: flex;
+    width: 1600px;
+    gap: 90px;
+    justify-content: center;
+    margin-top: 70px;
 
 
 }
+.cont2text{
+    width: 495px;
+    padding-top: 100px;
+    background-color: var(--bacgcolor);
 
+}
+.cont2headtext{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    color: var(--mainblack);
+}
+.cont2subtext{
+    font-size: 19px;
+    line-height: 32px;
+    font-weight: 400;
+    color: var(--mainblack);
+    padding-top: 39px;
+}
+.team{
+    width: 1158px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.teamimages{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.teamheadtext{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    color: var(--mainblack);
+    text-align: center;
+}
+.teamsubtext{
+   margin-top: 25px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 32px;
+    font-weight: 400;
+    color: var(--mainblack);
+
+
+}
 
