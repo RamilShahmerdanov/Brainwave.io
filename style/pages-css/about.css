@@ -4,11 +4,59 @@ body{
     align-items: center;
     flex-direction: column;
 }
+/* header Start */
 .header{
+    position: sticky;
+    top: 0;
     width: 1500px;
-    height: 33px;
-    background-color: rgb(225, 43, 43);
+    display: flex;
+    justify-content: center;
+    padding-left: 198px;
+    padding-right: 198px;
+    margin-top: 21px;
+    background-color: var(--white);
+    
 }
+.logoname{
+    display: flex;
+}
+
+.logoname a{
+    font-size: 28px;
+    line-height: 33px;
+    font-weight: 700;
+    color: var(--mainblack);
+}
+.headnavitem{
+    display: flex;
+    gap: 30px;
+}
+.headnavcenter{
+    display: flex;
+    /* width: 208px; */
+    text-align: center;
+   margin-left: 271px;
+   margin-right: 323px;
+
+}
+.headnavlink{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 700;
+    color: var(--mainblack);
+}
+.activenavlink{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #FB6D45;
+    ;
+
+}
+.headnavright{
+    display: flex;
+}
+
 .hero{
     width: 1110px;
     display: flex;
@@ -23,6 +71,7 @@ body{
     font-weight: 700;
     line-height: 65px;
     color:var(--mainblack) ;
+    text-align: center;
 
 }
 .hero p{
@@ -61,13 +110,14 @@ body{
     gap: 90px;
     justify-content: center;
     margin-top: 70px;
+    background-color: var(--bacgcolor);
 
 
 }
 .cont2text{
     width: 495px;
     padding-top: 100px;
-    background-color: var(--bacgcolor);
+    
 
 }
 .cont2headtext{
@@ -152,6 +202,7 @@ body{
     padding-bottom: 20px;
 
 }
+
 .navlink{
     font-size: 18px;
     font-weight: 400;
@@ -160,6 +211,7 @@ body{
     
 }
 .company{
+    width: 144px;
     margin-right:90 px;
 }
 .product{
@@ -167,6 +219,10 @@ body{
 }
 .services{
     margin-right: 70px;
+}
+.Legal{
+    width: 161px;
+    height: 166px;
 }
 /* FOOTER END */
 
