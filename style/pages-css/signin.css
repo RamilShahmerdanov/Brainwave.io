@@ -108,6 +108,7 @@ body{
     justify-content:center;
     padding-top: 122px;
     padding-bottom: 128px;
+    margin-top: 150px;
 }
 .brainwave{
     margin-right: 130px;
@@ -135,6 +136,7 @@ body{
     padding-bottom: 20px;
 
 }
+
 .navlink{
     font-size: 18px;
     font-weight: 400;
@@ -143,6 +145,7 @@ body{
     
 }
 .company{
+    width: 144px;
     margin-right:90 px;
 }
 .product{
@@ -150,5 +153,9 @@ body{
 }
 .services{
     margin-right: 70px;
+}
+.Legal{
+    width: 161px;
+    height: 166px;
 }
 /* FOOTER END */
