@@ -122,6 +122,13 @@
 
 /* jobs section starts */
 
+.job-title-text {
+    width: 429px;
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 .jobs-category {
     width: 100%;
@@ -148,11 +155,7 @@
     font-weight: 400;
     line-height: 32px;
     letter-spacing: -0.20000000298023224px;
-    text-align: left;
-    width: 388px;
-    height: 64px;
-    top: 68px;
-    gap: 0px;
+    /* text-align: left; */
     opacity: 0.65px;
     color: lightgray;
 }
@@ -173,6 +176,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    margin-top: 65px;
 }
 
 .job-container {
@@ -206,7 +210,198 @@
     color: var(--mainblack);
 }
 
+.purple {
+    background: #473BF0;
 
+}
+
+.purple h4 {
+    color: #FFFFFF;
+}
+
+.purple p {
+    color: #FFFFFF;
+}
+
+
+/* Find-Jobs starts */
+
+.find-jobs {
+    padding-top: 113px;
+}
+
+.find-jobs-heading {
+    width: 589px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.find-jobs-title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: center;
+
+}
+
+.find-jobs-text {
+
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+}
+
+.interview {
+    margin-top: 86px;
+    margin-left: 321px;
+    display: flex;
+    gap: 70px;
+}
+
+.search-jobs-card {
+    height: 100px;
+    width: 404px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.search-jobs-card img {
+    align-self: flex-start;
+}
+
+.search-jobs {
+    margin-top: 86px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.serch-job-title {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    text-align: left;
+
+}
+
+.search-job-text {
+
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+}
+
+.line {
+    margin-top: 118px;
+    border: 1px solid #E7E9ED
+}
+
+/* Featured Jobs Starts */
+
+.featured-jobs {
+    height: 740px;
+    background-image: url("/assets/image/home/wave.svg");
+    padding: 108px 245px 245px 245px;
+}
+
+.featured-content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 505px;
+    padding-right: 152px;
+}
+
+.featured-title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: left;
+
+}
+
+.featured-text {
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+
+}
+
+.featured-cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 84px;
+}
+
+/* news started */
+
+.news {
+    background: #F4F7FA;
+    height: 890px;
+    padding-top: 97px;
+
+}
+
+.news-content {
+    width: 505px;
+    height: 129px;
+    margin: 0 auto;
+}
+
+.news-title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: center;
+
+}
+
+.news-text {
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+
+}
+
+.news-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 74px;
+}
+
+
+/* Latest Updates starts */
+
+.latest-updates {
+    width: 502px;
+    height: 432px;
+    margin: 0 auto;
+}
 
 
 /* Media Queries for Responsive Design */
