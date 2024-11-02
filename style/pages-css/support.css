@@ -120,6 +120,8 @@ body{
     padding-bottom: 128px;
     margin-top: 150px;
     font-family: var(--Roboto);
+    
+    
 }
 .brainwave{
     margin-right: 130px;
@@ -139,12 +141,19 @@ body{
     color: var(--white);
     padding-bottom: 44px;
 }
-.company, .product, .services, .Legal p{
+.company, .product, .services{
     font-size: 15px;
-    font-weight: 400;
+    fnt-weight: 400;
     color: var(--white);
     line-height: 26px;
     padding-bottom: 20px;
+
+}
+.Legal p{
+    font-size: 15px;
+    fnt-weight: 400;
+    color: var(--white);
+    line-height: 26px;
 
 }
 
