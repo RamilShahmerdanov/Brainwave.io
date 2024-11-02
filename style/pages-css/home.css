@@ -239,7 +239,7 @@
 }
 
 .find-jobs-title {
-    font-family: Roboto;
+    font-family: var(--Roboto);
     font-size: 36px;
     font-weight: 700;
     line-height: 48px;
@@ -249,8 +249,7 @@
 }
 
 .find-jobs-text {
-
-    font-family: Roboto;
+    font-family: var(--Roboto);
     font-size: 19px;
     font-weight: 400;
     line-height: 32px;
@@ -286,7 +285,7 @@
 }
 
 .serch-job-title {
-    font-family: Roboto;
+    font-family: var(--Roboto);
     font-size: 21px;
     font-weight: 700;
     line-height: 32px;
@@ -297,7 +296,7 @@
 
 .search-job-text {
 
-    font-family: Roboto;
+    font-family: var(--Roboto);
     font-size: 17px;
     font-weight: 400;
     line-height: 29px;
@@ -313,9 +312,12 @@
 /* Featured Jobs Starts */
 
 .featured-jobs {
-    height: 740px;
+    width: 1110px;
+    margin: 0 auto;
+    height: auto;
     background-image: url("/assets/image/home/wave.svg");
-    padding: 108px 245px 245px 245px;
+    padding-bottom: 245px;
+    padding-top: 107px;
 }
 
 .featured-content {
@@ -327,7 +329,7 @@
 }
 
 .featured-title {
-    font-family: Roboto;
+    font-family: var(--Roboto);
     font-size: 36px;
     font-weight: 700;
     line-height: 48px;
@@ -337,7 +339,7 @@
 }
 
 .featured-text {
-    font-family: Roboto;
+    font-family: var(--Roboto);
     font-size: 19px;
     font-weight: 400;
     line-height: 32px;
@@ -358,6 +360,7 @@
     background: #F4F7FA;
     height: 890px;
     padding-top: 97px;
+    margin-bottom: 120px;
 
 }
 
@@ -368,7 +371,7 @@
 }
 
 .news-title {
-    font-family: Roboto;
+    font-family: var(--Roboto);
     font-size: 36px;
     font-weight: 700;
     line-height: 48px;
@@ -378,7 +381,7 @@
 }
 
 .news-text {
-    font-family: Roboto;
+    font-family: var(--Roboto);
     font-size: 19px;
     font-weight: 400;
     line-height: 32px;
@@ -401,7 +404,184 @@
     width: 502px;
     height: 432px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
+
+.input-container {
+    position: relative;
+    width: 499px;
+    height: 64px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.latest-input {
+    outline: none;
+    width: 100%;
+    border: none;
+    padding: 20px 100px 20px 20px;
+    font-size: 16px;
+}
+
+.latest-btn {
+    position: absolute;
+    background: #473BF0;
+    color: #FFFFFF;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    width: 166px;
+    height: 50px;
+    font-family: var(--Roboto);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: center;
+    border-radius: 6px;
+
+
+}
+
+.latest-updates-title {
+    text-align: center;
+    font-family: var(--Roboto);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: center;
+
+}
+
+.latest-updates-text {
+    margin-top: 20px;
+    font-family: var(--Roboto);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+
+}
+
+.policy {
+    font-family: var(--Roboto);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    width: 365px;
+
+}
+
+/* FOOTER START */
+.footer {
+    background-color: var(--mainblack);
+    display: flex;
+    justify-content: center;
+    padding-top: 122px;
+    padding-bottom: 128px;
+    margin-top: 150px;
+    font-family: var(--Roboto);
+
+
+}
+
+.brainwave {
+    margin-right: 130px;
+}
+
+.footlogoname {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    color: var(--white);
+    padding-bottom: 36px;
+    font-family: var(--Rubik);
+
+}
+
+.footsublogoname {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--white);
+    padding-bottom: 44px;
+    opacity: 65%;
+}
+
+.services p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 26px;
+    padding-bottom: 20px;
+    opacity: 65%;
+}
+
+.company p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 26px;
+    padding-bottom: 20px;
+    opacity: 65%;
+}
+
+.product p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 26px;
+    padding-bottom: 20px;
+    opacity: 65%;
+}
+
+.Legal p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 26px;
+    opacity: 65%;
+    padding-bottom: 20px;
+
+}
+
+.navlink {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 40px;
+
+}
+
+.company {
+    width: 144px;
+    margin-right: 90 px;
+}
+
+.product {
+    margin-right: 70px;
+}
+
+.services {
+    margin-right: 70px;
+}
+
+.Legal {
+    width: 161px;
+    height: 166px;
+}
+
+/* FOOTER END */
+
+
 
 
 /* Media Queries for Responsive Design */
