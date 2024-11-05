@@ -13,6 +13,12 @@
 }
 
 /* Header Section Styling */
+.headersticy{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #F0FBF3;
+}
 .header-title {
     font-family: var(--Rubik);
     font-weight: 700;
