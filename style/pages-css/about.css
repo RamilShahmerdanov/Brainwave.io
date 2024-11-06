@@ -1,15 +1,16 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     overflow-x: hidden;
 }
+
 /* header Start */
-.header{
+.header {
     position: sticky;
     top: 0;
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     padding-left: 198px;
@@ -18,40 +19,45 @@ body{
     background-color: var(--white);
     z-index: 5;
     padding-top: 10px;
-   
-    
-    
+
+
+
 }
-.logoname{
+
+.logoname {
     display: flex;
 }
 
-.logoname a{
+.logoname a {
     font-size: 28px;
     line-height: 33px;
     font-weight: 700;
     color: var(--mainblack);
     font-family: var(--Rubik);
 }
-.headnavitem{
+
+.headnavitem {
     display: flex;
     gap: 30px;
 }
-.headnavcenter{
+
+.headnavcenter {
     display: flex;
     /* width: 208px; */
     text-align: center;
-   margin-left: 230px;
-   margin-right: 280px;
+    margin-left: 230px;
+    margin-right: 280px;
 
 }
-.headnavlink{
+
+.headnavlink {
     font-size: 15px;
     line-height: 26px;
     font-weight: 700;
     color: var(--mainblack);
 }
-.activenavlink{
+
+.activenavlink {
     font-size: 15px;
     line-height: 26px;
     font-weight: 700;
@@ -59,11 +65,12 @@ body{
     ;
 
 }
-.headnavright{
+
+.headnavright {
     display: flex;
 }
 
-.hero{
+.hero {
     width: 66%;
     display: flex;
     flex-direction: column;
@@ -71,19 +78,22 @@ body{
     justify-content: center;
     margin-top: 109px;
 }
-.heroimg1{
+
+.heroimg1 {
     width: 100%;
 }
-.hero h1{
+
+.hero h1 {
     font-size: 60px;
     font-weight: 700;
     line-height: 65px;
-    color:var(--mainblack) ;
+    color: var(--mainblack);
     text-align: center;
     letter-spacing: -2px;
 
 }
-.hero p{
+
+.hero p {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -93,20 +103,23 @@ body{
     text-align: center;
     opacity: 70%;
 }
-.content1{
+
+.content1 {
     justify-content: center;
     display: flex;
     margin-top: 141px;
     gap: 155px;
 }
-.conttext1{
+
+.conttext1 {
     font-size: 48px;
     line-height: 58px;
     font-weight: 700;
     color: var(--mainblack);
     letter-spacing: -1.8px;
 }
-.conttext2{
+
+.conttext2 {
     width: 469px;
     height: 294px;
     font-size: 19px;
@@ -116,30 +129,34 @@ body{
     padding-top: 10px;
     opacity: 70%;
 }
-.content2{
+
+.content2 {
     display: flex;
     width: 100%;
     gap: 90px;
     justify-content: center;
     margin-top: 70px;
     background-color: var(--bacgcolor);
-    padding-top:139px ;
+    padding-top: 139px;
     padding-bottom: 138px;
 
 
 }
+
 .cont2img {
     width: 260px;
     width: 450px;
-  
-}
-.cont2text{
-    width: 455px;
-    padding-top: 130px;
-    
 
 }
-.cont2headtext{
+
+.cont2text {
+    width: 455px;
+    padding-top: 130px;
+
+
+}
+
+.cont2headtext {
     font-family: var(--Roboto);
     font-size: 48px;
     line-height: 58px;
@@ -147,7 +164,8 @@ body{
     color: var(--mainblack);
     letter-spacing: -1.8px;
 }
-.cont2subtext{
+
+.cont2subtext {
     font-size: 19px;
     line-height: 32px;
     font-weight: 400;
@@ -155,33 +173,38 @@ body{
     padding-top: 39px;
     opacity: 70%;
 }
-.team{
+
+.team {
     width: 1158px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-   
-   
-    
+
+
+
 }
-.teamtext{
+
+.teamtext {
     text-align: center;
-  
+
 }
-.teamimages{
+
+.teamimages {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-     margin-left: 80px; 
+    margin-left: 80px;
 }
-.teamimg1 img{
+
+.teamimg1 img {
     width: 230px;
     height: 420px;
 
 }
-.teamheadtext{
+
+.teamheadtext {
     font-size: 48px;
     line-height: 58px;
     font-weight: 700;
@@ -189,8 +212,9 @@ body{
     text-align: center;
     font-family: var(--Roboto);
 }
-.teamsubtext{
-   margin-top: 25px;
+
+.teamsubtext {
+    margin-top: 25px;
     margin-bottom: 60px;
     text-align: center;
     font-size: 19px;
@@ -204,22 +228,24 @@ body{
 }
 
 /* FOOTER START */
-.footer{
+.footer {
     width: 100%;
-    background-color:var(--mainblack);
+    background-color: var(--mainblack);
     display: flex;
-    justify-content:center;
+    justify-content: center;
     padding-top: 122px;
     padding-bottom: 128px;
     margin-top: 150px;
     font-family: var(--Roboto);
-    
-    
+
+
 }
-.brainwave{
+
+.brainwave {
     margin-right: 80px;
 }
-.footlogoname{
+
+.footlogoname {
     font-size: 28px;
     font-weight: 700;
     line-height: 33px;
@@ -228,7 +254,8 @@ body{
     font-family: var(--Rubik);
 
 }
-.footsublogoname{
+
+.footsublogoname {
     font-size: 15px;
     font-weight: 400;
     line-height: 26px;
@@ -236,33 +263,37 @@ body{
     padding-bottom: 44px;
     opacity: 65%;
 }
-.services p{
+
+.services p {
     font-size: 15px;
-    fnt-weight: 400;
+    font-weight: 400;
     color: var(--white);
     line-height: 26px;
     padding-bottom: 20px;
     opacity: 65%;
 }
-.company p{
+
+.company p {
     font-size: 15px;
-    fnt-weight: 400;
+    font-weight: 400;
     color: var(--white);
     line-height: 26px;
     padding-bottom: 20px;
     opacity: 65%;
 }
-.product p{
+
+.product p {
     font-size: 15px;
-    fnt-weight: 400;
+    font-weight: 400;
     color: var(--white);
     line-height: 26px;
     padding-bottom: 20px;
     opacity: 65%;
 }
-.Legal p{
+
+.Legal p {
     font-size: 15px;
-    fnt-weight: 400;
+    font-weight: 400;
     color: var(--white);
     line-height: 26px;
     opacity: 65%;
@@ -270,25 +301,30 @@ body{
 
 }
 
-.navlink{
+.navlink {
     font-size: 18px;
     font-weight: 400;
     color: var(--white);
     line-height: 40px;
-    
+
 }
-.company{
+
+.company {
     width: 144px;
-    margin-right:80 px;
+    margin-right: 80 px;
 }
-.product{
+
+.product {
     margin-right: 60px;
 }
-.services{
+
+.services {
     margin-right: 60px;
 }
-.Legal{
+
+.Legal {
     width: 161px;
     height: 166px;
 }
+
 /* FOOTER END */
