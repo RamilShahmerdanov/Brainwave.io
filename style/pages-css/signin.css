@@ -105,6 +105,9 @@ body{
     margin-bottom: 21px;
     border: none;
 }
+.formbtn a{
+    color: var(--white);
+}
 .fornendtext{
     font-size: 18px;
     font-weight: 400;
